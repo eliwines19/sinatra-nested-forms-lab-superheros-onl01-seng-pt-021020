@@ -1,5 +1,5 @@
-class Superhero 
-  attr_accessor :name, :power, :biography 
+class Superhero
+  attr_accessor :name, :power, :biography
 
   @@all = []
 
@@ -10,7 +10,7 @@ class Superhero
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all 
   end
 end
